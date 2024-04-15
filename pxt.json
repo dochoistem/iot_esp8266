@@ -1,0 +1,29 @@
+{
+    "name": "DCT-IoT 4.3.04",
+    "version": "4.3.xx",
+    "description": "DCT IoT by Do Choi STEM",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+	"neopixel": "github:dochoistem/neopixel",        
+	"microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "ESP8266.ts",
+        "main.py",
+        "main.ts"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
