@@ -5,7 +5,6 @@
     "license": "MIT",
     "dependencies": {
         "core": "*",
-	"neopixel": "github:YahboomTechnology/pxt-neopixel",        
 	"microphone": "*"
     },
     "files": [
